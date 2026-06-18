@@ -22,13 +22,6 @@ from ultralytics.utils.downloads import attempt_download_asset, safe_download
 
 COMMON_WEIGHTS = [
     *TASK2MODEL.values(),
-    "yolo11n-grayscale.pt",
-    "rtdetr-l.pt",
-    "FastSAM-s.pt",
-    "mobile_sam.pt",
-    "mobileclip_blt.ts",
-    "yolov8s-world.pt",
-    "yolov8s-worldv2.pt",
     "yoloe-11s-seg.pt",
     "yoloe-11s-seg-pf.pt",
 ]
